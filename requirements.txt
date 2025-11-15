@@ -1,0 +1,8 @@
+pymupdf
+pytesseract
+pdf2image
+pillow
+rapidfuzz
+pandas
+openpyxl
+PyPDF2
