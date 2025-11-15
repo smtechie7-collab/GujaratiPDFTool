@@ -1,74 +1,24 @@
-Gujarati PDF Search \& Conversion Tool
+# GujaratiPDFTool
 
+**Gujarati PDF Converter & Search — by SM TECHIE**
 
+Convert non-searchable Gujarati election PDFs into searchable PDFs and search Gujarati names (મેમણ, સલીમ etc.) quickly using OCR.
 
-Developer: SM TECHIE
+---
 
+## Features
+- Convert folder of PDFs → searchable PDFs (Tesseract OCR, Gujarati + English)
+- Fallback OCR per-page for scanned/encoded PDFs
+- Fast fuzzy search across many PDFs
+- Export results to CSV / Excel
+- GUI with progress, dark mode and settings
+- Works offline (Tesseract + Poppler required)
 
+---
 
-🔥 Features
-
-
-
-✔ Convert ANY Gujarati Election PDFs → Searchable PDFs
-
-✔ OCR (Gujarati + English) using Tesseract
-
-✔ Full-text fuzzy search in Gujarati
-
-✔ Auto-detect non-searchable PDF
-
-✔ Search multi-files + multi-pages
-
-✔ Excel/CSV export
-
-✔ Dark mode
-
-✔ Professional GUI
-
-
-
-🛠 Installation
-
-
-
-Install Python ≥ 3.9
-
-
-
-Install dependencies:
-
-
-
-pip install -r requirements.txt
-
-
-
-
-
-Install Tesseract OCR
-
-
-
-Install Poppler
-
-
-
-▶ Run
-
-python src/GujaratiAllInOneGUI\_v2.py
-
-
-
-🏗 Build EXE
-
-build\_exe.bat
-
-
-
-📦 Download (Releases)
-
-
-
-Users can download the exe from the Releases section of this repo.
-
+## Requirements
+- Windows 10/11
+- Python 3.9+ (if running from source)
+- [Tesseract OCR] installed and `guj.traineddata` present in tessdata
+- Poppler (pdftoppm available)
+- Python packages:
